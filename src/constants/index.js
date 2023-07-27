@@ -141,7 +141,7 @@ const experiences = [
     title: "Self-taught developer",
     company_name: "FreeCodeCamp",
     icon: fcc,
-    iconBg: "#383E56",
+    iconBg: "#0A0A22",
     date: "Sept 2021 - Jan 2022",
     points: [
       `To keep my skills relevant and up-to-date, I decided to do go through the free resources available on
@@ -153,7 +153,7 @@ const experiences = [
     title: "Inbound Customer Service Advisor",
     company_name: "HGSUK",
     icon: hgs,
-    iconBg: "#E6DEDD",
+    iconBg: "#FFF",
     date: "Sept 2022 - Dec 2022",
     points: [
       `Receiving inbound calls from the general public in a timely fashion, accurately recording their personal details using a dedicated call logger and then booking them in for their autumn booster vaccinations.`,
@@ -167,7 +167,7 @@ const experiences = [
     title: "Technical Support Advisor",
     company_name: "UW",
     icon: uw,
-    iconBg: "#383E56",
+    iconBg: "#540092",
     date: "Jan 2023 - May 2023",
     points: [
       `Communicated effectively with customers through phone, email and live chat to ensure their issues were resolved in a timely manner.`,
@@ -178,7 +178,7 @@ const experiences = [
     title: "Coding Traineeship",
     company_name: "IT Career Switch",
     icon: itcw,
-    iconBg: "#E6DEDD",
+    iconBg: "#FFF",
     date: "June 2023 - Present",
     points: [
       "To get back into the groove of developing I decided to embark on a traineeship program.",
