@@ -45,13 +45,14 @@ const About = () => {
         websites has become more than just a hobby—it's my true calling. <br />
         My journey began with tools like Dreamweaver, Bootstrap, Mobirise, and
         Webflow, which sparked my fascination with the scope of web development.
-        But as time progressed, I embraced newer tools like Visual Studio Code,
-        React, Next.js, and Tailwind, allowing me to craft more versatile and
-        manageable applications. With each project, I strive to push boundaries,
-        refine my techniques, and deliver seamless user experiences. <br />
-        But my quest for growth and knowledge is far from over. The future holds
-        exciting prospects, and I eagerly embrace the challenges ahead. In the
-        coming months, I aspire to delve into the MERN stack, broadening my
+        As time progressed, I embraced more contemporary tools like Visual
+        Studio Code, React, Next.js, and Tailwind, allowing me to craft more
+        versatile and manageable applications. With each project, I strive to
+        push boundaries, refine my techniques, and deliver seamless user
+        experiences. <br />
+        My quest for growth and knowledge is far from over though. The future
+        holds exciting prospects, and I eagerly embrace the challenges ahead. In
+        the coming months, I aspire to delve into the MERN stack, broadening my
         expertise to encompass the full spectrum of web development. I also have
         my sights set on learning TypeScript, as it currently seems to be the
         meta. With each new skill I acquire, I'm empowered to create even more
