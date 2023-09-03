@@ -22,6 +22,7 @@ import {
   hgs,
   uw,
   itcw,
+  companion,
   defi,
   gop,
   hxmza,
@@ -231,6 +232,42 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Companion",
+    description: "An AI companion app built using Next 13, React, Prisma, Stripe, MySQL and Tailwind to get a taste of AI and SaaS",
+    tags: [
+      {
+        name: "next",
+        color: "black-gradient"
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "grey-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "orange-text-gradient"
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: companion,
+    live: "https://companion-beta.vercel.app",
+  },
+  {
     name: "DeFi",
     description: "A simple crypto app developed using React and Tailwind",
     tags: [
@@ -240,7 +277,7 @@ const projects = [
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
     image: defi,
@@ -288,7 +325,7 @@ const projects = [
       },
       {
         name: "typescript",
-        color: "orange-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: hxmza,

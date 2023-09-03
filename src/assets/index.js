@@ -30,6 +30,7 @@ import hgs from "./company/hgs.png";
 import uw from "./company/uw.png";
 import itcw from "./company/itcw.png";
 
+import companion from "./companion.png";
 import defi from "./defi.png";
 import gop from "./gop.png";
 import hxmza from "./hxmza.png";
@@ -67,6 +68,7 @@ export {
   hgs,
   uw,
   itcw,
+  companion,
   defi,
   gop,
   hxmza,
