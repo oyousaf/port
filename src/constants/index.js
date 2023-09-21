@@ -184,8 +184,8 @@ const experiences = [
     points: [
       "To get back into the groove of developing I decided to embark on a traineeship program.",
       "Revisited the fundamentals of Web Development, which included HTML5, CSS3 and JavaScript, and also got a feel of Python.",
-      "Delved into full stack development learning technologies such as Express.js, React, Node.js, and SQL.",
-      "Had a taste of the software development life cycle and ensured code integrity with the use of testing libraries.",
+      "Delved into full stack development learning technologies such as Express.js, React, Redux, and PostgreSQL.",
+      "Ensured code integrity with the use of Test Driven Development (TDD).",
     ],
   },
   /*{
