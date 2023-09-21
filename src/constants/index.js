@@ -185,7 +185,7 @@ const experiences = [
       "To get back into the groove of developing I decided to embark on a traineeship program.",
       "Revisited the fundamentals of Web Development, which included HTML5, CSS3 and JavaScript.",
       "Delved into full stack development learning technologies such as Express.js, React, Redux, and PostgreSQL.",
-      "Also learnt Test Driven Development (TDD) via Mocha and Chai to ensure code integrity, API development, data security, DevOps, and algorithms.",
+      "Also learnt Test Driven Development (TDD) using Mocha and Chai to ensure code integrity, API development, data security, DevOps, and algorithms.",
     ],
   },
   /*{
