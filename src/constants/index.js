@@ -28,6 +28,7 @@ import {
   hxmza,
   notflix,
   pollards,
+  reddit,
   weather,
   threejs,
 } from "../assets";
@@ -107,10 +108,10 @@ const technologies = [
     name: "Vue",
     icon: vue,
   },
-  /*{
-      name: "Redux Toolkit",
-      icon: redux,
-    },*/
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
   {
     name: "Node JS",
     icon: nodejs,
@@ -233,11 +234,12 @@ const testimonials = [
 const projects = [
   {
     name: "Companion",
-    description: "An AI companion app built using Next 13, React, Prisma, Stripe, MySQL and Tailwind to get a taste of AI and SaaS",
+    description:
+      "An AI companion app built using Next 13, React, Prisma, Stripe, MySQL and Tailwind to get a taste of AI and SaaS",
     tags: [
       {
         name: "next",
-        color: "black-gradient"
+        color: "black-gradient",
       },
       {
         name: "react",
@@ -253,7 +255,7 @@ const projects = [
       },
       {
         name: "mysql",
-        color: "orange-text-gradient"
+        color: "orange-text-gradient",
       },
       {
         name: "tailwind",
@@ -374,6 +376,27 @@ const projects = [
     image: pollards,
     source_code_link: "https://github.com/oyousaf/pollards",
     live: "https://pollards.info",
+  },
+  {
+    name: "Reddit",
+    description: "A Reddit client app built using React, Redux and Tailwind",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "purple-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: reddit,
+    source_code_link: "https://github.com/oyousaf/reddit",
+    live: "https://red-client.netlify.app",
   },
   {
     name: "Weather",

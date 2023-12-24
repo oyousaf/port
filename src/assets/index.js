@@ -36,6 +36,7 @@ import gop from "./gop.png";
 import hxmza from "./hxmza.png";
 import notflix from "./notflix.png";
 import pollards from "./pollards.png";
+import reddit from "./reddit.png"
 import weather from "./weather.png";
 
 export {
@@ -74,5 +75,6 @@ export {
   hxmza,
   notflix,
   pollards,
+  reddit,
   weather,
 };
