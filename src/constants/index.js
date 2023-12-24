@@ -251,7 +251,7 @@ const projects = [
       },
       {
         name: "stripe",
-        color: "grey-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "mysql",
