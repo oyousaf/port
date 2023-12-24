@@ -387,7 +387,7 @@ const projects = [
       },
       {
         name: "redux",
-        color: "purple-gradient",
+        color: "violet-gradient",
       },
       {
         name: "tailwind",
