@@ -59,8 +59,8 @@ const About = () => {
         {poemLines.map((line, index) => (
           <motion.p
             key={index}
-            variants={fadeIn("", "", 0.1, 1)} // Adjust animation as needed
-            className="mt-4 text-secondary text-[20px] leading-[30px]"
+            variants={fadeIn("", "", 0.1, 1)}
+            className="mt-4 text-secondary text-[30px] leading-[30px]"
           >
             {line}
           </motion.p>
