@@ -55,7 +55,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Welcome</h2>
       </motion.div>
 
-      <div className="max-w-3xl">
+      <div className="max-w-4xl">
         {poemLines.map((line, index) => (
           <motion.p
             key={index}
