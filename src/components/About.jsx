@@ -7,6 +7,26 @@ import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import SectionWrapper from "../hoc/SectionWrapper";
 
+const poemLines = [
+  "In the binary ballet where pixels pirouette, I embarked on a journey, a dev's duet.",
+  "Dreamweaver and Bootstrap, my first dance floor, Coding passion ignited, I craved for more.",
+  "",
+  "Mobirise and Webflow, partners in design, A symphony of websites, a world so fine.",
+  "Yet, the evolution of code called my name, Visual Studio Code, where I found my flame.",
+  "",
+  "With React, I sculpted digital dreams, Next.js added depth, or so it seems.",
+  "Tailwind, my brush, painting styles with grace, In the canvas of browsers, I found my space.",
+  "",
+  "MERN stack whispers, a melody to play, Mongo, Express, React, and Node in array.",
+  "TypeScript, a sonnet in a developer's ear, In the kingdom of syntax, where I hold dear.",
+  "",
+  "Learning is my anthem, in skills I invest, In the library of knowledge, my heart finds rest.",
+  "A web dev's waltz, with bugs to unfurl, I'm the maestro of code, in this vast, virtual world.",
+  "",
+  "So, in the binary glow, where my passion resides, I code, I create, in the web's tides.",
+  "A quirky romance, with each line I script, In the language of love, my heart is equipped.",
+];
+
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
@@ -35,29 +55,17 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Welcome</h2>
       </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[20px] max-w-3xl leading-[30px]"
-      >
-        I've spent countless years immersing myself in the world of coding,
-        constantly exploring new technologies and honing my skills to create
-        exceptional websites. The process of crafting, refining, and maintaining
-        websites has become more than just a hobby—it's my true calling. <br />
-        My journey began with tools like Dreamweaver, Bootstrap, Mobirise, and
-        Webflow, which sparked my fascination with the scope of web development.
-        As time progressed, I embraced more contemporary tools like Visual
-        Studio Code, React, Next.js, and Tailwind, allowing me to craft more
-        versatile and manageable applications. With each project, I strive to
-        push boundaries, refine my techniques, and deliver seamless user
-        experiences. <br />
-        My quest for growth and knowledge is far from over though. The future
-        holds exciting prospects, and I eagerly embrace the challenges ahead. In
-        the coming months, I aspire to delve into the MERN stack, broadening my
-        expertise to encompass the full spectrum of web development. I also have
-        my sights set on learning TypeScript, as it currently seems to be the
-        meta. With each new skill I acquire, I'm empowered to create even more
-        innovative and robust solutions for my clients. <br />
-      </motion.p>
+      <div className="max-w-3xl">
+        {poemLines.map((line, index) => (
+          <motion.p
+            key={index}
+            variants={fadeIn("", "", 0.1, 1)} // Adjust animation as needed
+            className="mt-4 text-secondary text-[20px] leading-[30px]"
+          >
+            {line}
+          </motion.p>
+        ))}
+      </div>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
